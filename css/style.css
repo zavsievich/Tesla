@@ -20,7 +20,7 @@
 .header {
     background-color: #343434;
     padding: 30px 45px;
-
+    height: 10vh;
 }
 
 .navbar {
@@ -59,13 +59,60 @@
     background-color: #343434;
     padding: 30px 45px;
     text-align: center;
+    height: 90vh;
+}
+
+.section-1__container-for-two {
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
 
 .section-1__header {
-    font-size: 20rem;
+    font-size: 11rem;
     position: absolute;
     text-align: center;
-    
+    z-index: 1;
+    text-transform: uppercase;
+    text-align: center;
+    left: 360px;
+}
+
+.section-1__image {
+    z-index: 20;
+    position: relative;
+}
+
+.specifications {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-right: 100px;
+}
+
+.specifications__elem {
+    border: 2px solid #98020b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    height: 180px;
+}
+
+.big {
+    font-size: 2.5rem;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.section-1__paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.section-1__triangle {
+    font-size: 1.5rem;
 }
 
 /* Section 2 */
