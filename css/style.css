@@ -304,3 +304,37 @@
     margin: 25px;
     text-align: center;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #909090;
+    padding: 30px 45px;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__label {
+    font-size: 2rem;
+    ma
+}
+
+.footer__input {
+    font-size: 2rem;
+    
+}
+
+.footer__button {
+    font: inherit;
+    font-size: 2rem;
+    color: inherit;
+    border: 1px solid #98020b;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: 110px;
+    margin-top: 10px;
+}
+
