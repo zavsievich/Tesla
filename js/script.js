@@ -1,3 +1,15 @@
+/* Responsive Navigation */
+
+function classToggle() {
+  const uls = document.querySelectorAll('.navbar__list');
+
+  uls.forEach(ul => ul.classList.toggle('navbar__show'));
+}
+
+document.querySelector('.navbar__button').addEventListener('click', classToggle);
+
+/* Carousel */
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +38,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
